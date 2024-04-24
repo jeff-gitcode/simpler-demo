@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Nvn4sEfodKqDxdvXQmBC2GcE0OrvURPEE4Yvqb9OKXraNR0yK+IZMYSiqBJJeZlpEtskllMV3i2gt4sraX6cw==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeffs\\.nuget\\packages\\simpler.protocol\\1.0.0-alpha.1.7\\simpler.protocol.1.0.0-alpha.1.7.nupkg.sha512",
+    "C:\\Users\\jeffs\\.nuget\\packages\\simpler.server\\1.0.0-alpha.1.7\\simpler.server.1.0.0-alpha.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

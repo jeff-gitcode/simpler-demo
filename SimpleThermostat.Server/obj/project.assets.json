@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SimpleR.Protocol/1.0.0-alpha.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/SimpleR.Protocol.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleR.Protocol.dll": {}
+        }
+      },
+      "SimpleR.Server/1.0.0-alpha.1.7": {
+        "type": "package",
+        "dependencies": {
+          "SimpleR.Protocol": "1.0.0-alpha.1.7"
+        },
+        "compile": {
+          "lib/net8.0/SimpleR.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/SimpleR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "SimpleR.Protocol/1.0.0-alpha.1.7": {
+      "sha512": "sHziYXSaU5ZEGHquN7ALrMrJCOe3WOzUGj5Iyo/AuY1UYNalhB7qOBnadPJPlisHDY7JqZkBy1JfwwS+dRvOMA==",
+      "type": "package",
+      "path": "simpler.protocol/1.0.0-alpha.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/SimpleR.Protocol.dll",
+        "logo.JPG",
+        "simpler.protocol.1.0.0-alpha.1.7.nupkg.sha512",
+        "simpler.protocol.nuspec"
+      ]
+    },
+    "SimpleR.Server/1.0.0-alpha.1.7": {
+      "sha512": "5mWgfub4zg7gFvwepqErx3Ky+etAELQ+FGwb6IFzgRUREM/asI+K9r/shqIgyXWE+NQagXo6qMNMYCe0RQLb9g==",
+      "type": "package",
+      "path": "simpler.server/1.0.0-alpha.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SimpleR.dll",
+        "lib/net8.0/SimpleR.dll",
+        "logo.JPG",
+        "simpler.server.1.0.0-alpha.1.7.nupkg.sha512",
+        "simpler.server.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SimpleR.Server >= 1.0.0-alpha.1.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jeffs\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
+      "projectName": "SimpleThermostat.Server",
+      "projectPath": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
+      "packagesPath": "C:\\Users\\jeffs\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jeffs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "SimpleR.Server": {
+            "target": "Package",
+            "version": "[1.0.0-alpha.1.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
