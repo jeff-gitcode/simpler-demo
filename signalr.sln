@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleThermostat.Server", "SimpleThermostat.Server\SimpleThermostat.Server.csproj", "{0BF9F211-8FA2-46E1-A374-BAB50A4A4E18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleThermostat.Client", "SimpleThermostat.Client\SimpleThermostat.Client.csproj", "{8522A9F3-5A55-4D5B-9894-7D646302629B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatMessage.Client", "ChatMessage.Client\ChatMessage.Client.csproj", "{48F9B4AC-0B8A-4953-B509-C7DC5024253C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0BF9F211-8FA2-46E1-A374-BAB50A4A4E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BF9F211-8FA2-46E1-A374-BAB50A4A4E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BF9F211-8FA2-46E1-A374-BAB50A4A4E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8522A9F3-5A55-4D5B-9894-7D646302629B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8522A9F3-5A55-4D5B-9894-7D646302629B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8522A9F3-5A55-4D5B-9894-7D646302629B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8522A9F3-5A55-4D5B-9894-7D646302629B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F9B4AC-0B8A-4953-B509-C7DC5024253C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F9B4AC-0B8A-4953-B509-C7DC5024253C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F9B4AC-0B8A-4953-B509-C7DC5024253C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F9B4AC-0B8A-4953-B509-C7DC5024253C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

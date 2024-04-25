@@ -8,7 +8,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapSimpleR<ThermostatMetric, ThermostatCommand>("thermostat/{deviceId}", b =>
+app.MapSimpleR<ThermostatMetric, ThermostatCommand>("thermostat/{deviceId}/socket", b =>
 {
     b.UseDispatcher<ThermostatMessageDispatcher>()
         .UseEndOfMessageDelimitedProtocol(
@@ -18,8 +18,9 @@ app.MapSimpleR<ThermostatMetric, ThermostatCommand>("thermostat/{deviceId}", b =
 app.MapSimpleR<ChatMessage>("/chat",
     b =>
     {
-        b.UseCustomProtocol(new ChatMessageProtocol())
-        .UseDispatcher<ChatMessageDispatcher>();
+        b.UseDispatcher<ChatMessageDispatcher>()
+        .UseEndOfMessageDelimitedProtocol(
+            MessageProtocol.From(new ChatMessageReadProtocol(), new ChatMessageWriteProtocol()));
     }
 );
 

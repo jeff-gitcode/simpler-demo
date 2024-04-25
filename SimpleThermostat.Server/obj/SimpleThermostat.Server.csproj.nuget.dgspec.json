@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj": {}
+    "C:\\dev\\signalr\\simpler-demo\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj": {}
   },
   "projects": {
-    "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj": {
+    "C:\\dev\\signalr\\simpler-demo\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
+        "projectUniqueName": "C:\\dev\\signalr\\simpler-demo\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
         "projectName": "SimpleThermostat.Server",
-        "projectPath": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
+        "projectPath": "C:\\dev\\signalr\\simpler-demo\\SimpleThermostat.Server\\SimpleThermostat.Server.csproj",
         "packagesPath": "C:\\Users\\jeffs\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\net-best-practices\\signalr\\SimpleThermostat.Server\\obj\\",
+        "outputPath": "C:\\dev\\signalr\\simpler-demo\\SimpleThermostat.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
